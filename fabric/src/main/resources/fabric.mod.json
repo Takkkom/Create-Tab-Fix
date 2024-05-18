@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "create_tabfix",
+  "version": "${version}",
+  "name": "Create Tab Fix",
+  "description": "",
+  "authors": [
+    "Takkkom"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT License",
+  "icon": "assets/create_tab_fix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.takkkom.create_tab_fix.fabric.CreateTabFixFabric"
+    ]
+  },
+  "mixins": [
+    "create_tab_fix.mixins.json",
+    "create_tab_fix-common.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "${minecraft_version}",
+    "fabricloader": ">=${fabric_loader_version}",
+    "fabric-api": ">=${fabric_api_version}",
+    "create": "${create_version}"
+  }
+}

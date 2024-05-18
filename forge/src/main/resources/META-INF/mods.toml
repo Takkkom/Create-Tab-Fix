@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[${forge_version},)"
+#issueTrackerURL = ""
+license = "MIT LICENSE"
+
+[[mods]]
+modId = "create_tab_fix"
+version = "${version}"
+displayName = "Create Tab Fix"
+authors = "Takkkom"
+description = '''
+
+'''
+logoFile = "icon.png"
+
+[[dependencies.create_tab_fix]]
+modId = "forge"
+mandatory = true
+versionRange = "[${forge_version},)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_tab_fix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "${minecraft_version}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.create_tab_fix]]
+modId="create"
+mandatory=true
+versionRange="${create_version}"
+ordering="NONE"
+side="BOTH"

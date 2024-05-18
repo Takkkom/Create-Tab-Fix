@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.takkkom.create_tab_fix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "create.MixinCreateRegistrate"
+  ],
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
