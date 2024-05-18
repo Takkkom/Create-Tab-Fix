@@ -8,8 +8,8 @@
     "Takkkom"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "issues": "https://github.com/Takkkom/Create-Tab-Fix/issues",
+    "sources": "https://github.com/Takkkom/Create-Tab-Fix"
   },
   "license": "MIT License",
   "icon": "assets/create_tab_fix/icon.png",
