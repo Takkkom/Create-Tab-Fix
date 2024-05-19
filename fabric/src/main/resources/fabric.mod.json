@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "create_tabfix",
+  "id": "create_tab_fix",
   "version": "${version}",
   "name": "Create Tab Fix",
   "description": "",
